@@ -1,0 +1,21 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    border-bottom: 2px red solid;
+    padding: 0px 10px;
+}
+
+#header img {
+    height: 72px;
+    margin-right: 30px;
+}
+
+#header > * {
+    display: inline-block;
+}
